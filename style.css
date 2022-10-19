@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.contanier-lampada .acesa-img , .apagada-img {
+    width: 230px;
+    
+
+}
+
+.contanier-lampada {
+    display: flex;
+    justify-content: center;
+}
+
+.apagada-img {
+   z-index: fixed 9999; 
+}
+
+.acesa-img {
+  display: none;
+  z-index: fixed 9999;
+}
+
+.acender, .apagar {
+    width: 110px;
+    height: 36px;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-weight: bold ;
+}
+
+.botoes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* EFEITOS BOTOES*/
+
+.botao_ligar {
+    background-color: rgb(221, 243, 141);
+}
+
+.acender:hover, .apagar:hover {
+    width: 112px;
+    height: 38px;
+    border: solid 2px black;
+    border-radius: 20px;
+    font-weight: bold ;
+    background-color: rgb(226, 238, 183);
+}
+
