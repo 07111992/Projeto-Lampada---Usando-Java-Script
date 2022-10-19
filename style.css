@@ -4,18 +4,19 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    
 }
+
+/* TEXTO LAMPADA */
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
 }
+
+/* IMAGENS */
 
 .contanier-lampada .acesa-img , .apagada-img {
     width: 230px;
-    
-
 }
 
 .contanier-lampada {
@@ -31,6 +32,8 @@ h1 {
   display: none;
   z-index: fixed 9999;
 }
+
+/* BOTOES */
 
 .acender, .apagar {
     width: 110px;
@@ -48,10 +51,6 @@ h1 {
 }
 
 /* EFEITOS BOTOES*/
-
-.botao_ligar {
-    background-color: rgb(221, 243, 141);
-}
 
 .acender:hover, .apagar:hover {
     width: 112px;
